@@ -4,16 +4,12 @@
 import pytest
 
 def extract(data):
-    # Enhance with AI techniques such as preliminary data cleaning
-    return [d * 2 for d in data]  # Example transformation
+    return [d * 2 for d in data]
 
 def generate(data):
-    # Apply AI-driven transformations, error corrections, or data enrichment
-    return [d + 10 for d in data]  # Example transformation
+    return [d + 10 for d in data]
 
 def generate_augmented(data):
-    # Apply AI-driven transformations and data enrichment
-    # Augment data by adding synthetic points
     augmented_data = []
     for d in data:
         augmented_data.append(d + 10)  # Original transformation
@@ -21,7 +17,6 @@ def generate_augmented(data):
     return augmented_data
 
 def transfer(data):
-    # Adjust formats, conduct integrity checks
     return [d - 5 for d in data]  # Example transformation
 
 def load(data):
